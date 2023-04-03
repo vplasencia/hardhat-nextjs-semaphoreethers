@@ -126,7 +126,9 @@ export default function ProofsPage() {
 
             <div className="text-top">
                 <h3>Feedback signals ({_feedback.length})</h3>
-                <button className="button-link" onClick={refreshFeedback}>Refresh</button>
+                <button className="button-link" onClick={refreshFeedback}>
+                    Refresh
+                </button>
             </div>
 
             <div>

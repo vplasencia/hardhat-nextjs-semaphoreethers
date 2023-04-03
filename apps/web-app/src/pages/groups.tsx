@@ -98,11 +98,17 @@ export default function GroupsPage() {
 
             <div className="text-top">
                 <h3>Feedback users ({_users.length})</h3>
-                <button className="button-link" onClick={refreshUsers}>Refresh</button>
+                <button className="button-link" onClick={refreshUsers}>
+                    Refresh
+                </button>
             </div>
 
             <div>
-                <button className="button" onClick={joinGroup} disabled={_loading || !_identity || userHasJoined(_identity)}>
+                <button
+                    className="button"
+                    onClick={joinGroup}
+                    disabled={_loading || !_identity || userHasJoined(_identity)}
+                >
                     <span>Join group</span>
                     {_loading && <div className="loader"></div>}
                 </button>

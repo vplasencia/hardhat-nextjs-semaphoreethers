@@ -7,9 +7,9 @@ import { useEffect, useState } from "react"
 import LogsContext from "../context/LogsContext"
 import SemaphoreContext from "../context/SemaphoreContext"
 import useSemaphore from "../hooks/useSemaphore"
-import { Inter } from '@next/font/google'
+import { Inter } from "@next/font/google"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export default function App({ Component, pageProps }: AppProps) {
     const router = useRouter()

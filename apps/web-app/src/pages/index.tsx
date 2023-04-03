@@ -76,7 +76,9 @@ export default function IdentitiesPage() {
                 </div>
             ) : (
                 <div>
-                    <button className="button" onClick={createIdentity}>Create identity</button>
+                    <button className="button" onClick={createIdentity}>
+                        Create identity
+                    </button>
                 </div>
             )}
 
